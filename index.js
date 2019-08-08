@@ -6,7 +6,7 @@ module.exports = {
       if (kvPair.length !== 2) {
         return parsedParams;
       }
-      parsedParams[kvPair[0]] = kvPair[1].replace(/(^")|("$)/g, '');
+      parsedParams[kvPair[0]] = kvPair[1].replace(/(^("|'))|(("|')$)/g, '');
       return parsedParams;
     }, {})
   }
