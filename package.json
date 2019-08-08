@@ -1,6 +1,6 @@
 {
   "name": "string-arg-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse args in the form of name=value",
   "main": "index.js",
   "scripts": {
